@@ -78,3 +78,29 @@ button {
 button:hover {
   background-color: #2980b9;
 }
+
+
+/* Add styles for the Contact section */
+#contact {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+#contact h2 {
+  color: #333;
+}
+
+#contact p {
+  margin-bottom: 15px;
+}
+
+#contact ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#contact li {
+  margin-bottom: 10px;
+}
+
+/* Additional styles can be added based on your design preferences */
