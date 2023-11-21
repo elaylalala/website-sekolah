@@ -57,3 +57,13 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log("Kontak link clicked!");
   });
 });
+
+function toggleAbout() {
+  var aboutContent = document.getElementById("aboutContent");
+  if (aboutContent.style.display === "none" || aboutContent.style.display === "") {
+    aboutContent.style.display = "block";
+  } else {
+    aboutContent.style.display = "none";
+  }
+}
+
