@@ -40,3 +40,20 @@ document.addEventListener("DOMContentLoaded", function () {
     jurusanSection.appendChild(jurusanButton);
   }
 });
+// script.js
+
+document.addEventListener("DOMContentLoaded", function () {
+  // Wait for the DOM content to be fully loaded
+
+  // Get the "Kontak" link element
+  var contactLink = document.querySelector('nav ul li:nth-child(3) a');
+
+  // Add a click event listener to the "Kontak" link
+  contactLink.addEventListener("click", function (event) {
+    // Prevent the default behavior of the link
+    event.preventDefault();
+
+    // Log a message to the console when the link is clicked
+    console.log("Kontak link clicked!");
+  });
+});
